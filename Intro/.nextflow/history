@@ -1,0 +1,23 @@
+2025-12-06 05:23:10	2.3s	elegant_galileo	OK	f7784d0168d002c6b5d1136bc5116d3f	18c52ff4-60f9-4be9-99fa-4846f287567c	nextflow run 1.hello-world.nf
+2025-12-06 05:40:12	1.3s	grave_turing	OK	f7784d0168d002c6b5d1136bc5116d3f	e98e3730-4002-4c4a-b1c8-a691be73ff43	nextflow run 1.hello-world.nf
+2025-12-06 05:42:08	2.1s	festering_nightingale	OK	444bba3ccc7998567f7402d72ef19475	e0b0ab3c-9288-44dd-bf7a-f09c9c41d319	nextflow 2.hello-Bengauru.nf
+2025-12-06 05:56:58	1.4s	admiring_dijkstra	OK	444bba3ccc7998567f7402d72ef19475	99ed1a3b-ed36-43c6-ad92-ab91b32695d4	nextflow 2.hello-Bengauru.nf -ansi-log false
+2025-12-06 06:00:56	1.5s	gloomy_magritte	OK	9db7ede7b916ac80d4ce2ad7b6a9dbbe	a520e0d2-d8e9-4c73-8b84-5b45aa7adc26	nextflow 2.hello-Bengauru.nf
+2025-12-06 06:04:59	2s	irreverent_roentgen	OK	ec1438a98e417ffd1341b9e0bd045e6a	d56ed92e-5964-40af-aaa5-a201169d2160	nextflow 2.hello-Bengauru.nf
+2025-12-06 06:07:52	1.5s	suspicious_swartz	OK	ec1438a98e417ffd1341b9e0bd045e6a	5171a388-72bd-4f95-b1f1-41d0db8c1ba0	nextflow 2.hello-Bengauru.nf -ansi-log false --user Yashu
+2025-12-06 06:10:41	1.4s	exotic_lavoisier	ERR	16d8d36e32873a2f3fa2dd1a2ac699c2	9d86d4a4-89e8-4a4e-a4eb-ecb9ee020877	nextflow 2.hello-Bengauru.nf -ansi-log false --user Yashu
+2025-12-06 06:10:57	1.4s	voluminous_shannon	ERR	16d8d36e32873a2f3fa2dd1a2ac699c2	bcaa55b8-dbd0-4a98-b16b-0c4f48a13b40	nextflow 2.hello-Bengauru.nf -ansi-log false
+2025-12-06 06:11:27	1.8s	drunk_gutenberg	OK	ca23e7ec17a0e97f4451d93e620cf65a	6f589dc4-63e0-4021-9fbd-638af2fbced0	nextflow 2.hello-Bengauru.nf -ansi-log false
+2025-12-06 06:14:03	2.8s	wise_brahmagupta	OK	ca23e7ec17a0e97f4451d93e620cf65a	6f589dc4-63e0-4021-9fbd-638af2fbced0	nextflow 2.hello-Bengauru.nf --user Yashu -resume
+2025-12-06 06:14:44	1.9s	gloomy_monod	OK	ca23e7ec17a0e97f4451d93e620cf65a	6f589dc4-63e0-4021-9fbd-638af2fbced0	nextflow 2.hello-Bengauru.nf --user Yashu -resume
+2025-12-06 06:16:12	2.1s	naughty_borg	OK	ca23e7ec17a0e97f4451d93e620cf65a	6f589dc4-63e0-4021-9fbd-638af2fbced0	nextflow 2.hello-Bengauru.nf -resume
+2025-12-06 06:28:43	1.6s	cheeky_hypatia	OK	f2c012e4663ebf597bb6612791369ada	2b3e8257-16c9-41b2-8048-28fe433f47de	nextflow 3.hello-Bengauru-Upper.nf
+2025-12-06 06:35:31	1.5s	sad_austin	OK	83eee04a2ac129e56b39449b80fb6240	d7b56c3f-6b1a-48ad-a390-c63b2c6693f3	nextflow 3.hello-Bengauru-Upper.nf
+2025-12-06 06:36:30	1.8s	zen_marconi	OK	710e6c9066e9b2f1a39c77aad8fa2ea5	d7b56c3f-6b1a-48ad-a390-c63b2c6693f3	nextflow 3.hello-Bengauru-Upper.nf -resume
+2025-12-06 06:37:15	1.9s	chaotic_kowalevski	OK	45ea9535fa2a1a41b3a82b69779bf70f	d7b56c3f-6b1a-48ad-a390-c63b2c6693f3	nextflow 3.hello-Bengauru-Upper.nf -resume
+2025-12-06 06:40:06	2.3s	gloomy_brahmagupta	OK	2b5c988b8dde3e5f90cf7f897e644bc4	d7b56c3f-6b1a-48ad-a390-c63b2c6693f3	nextflow 3.hello-Bengauru-Upper.nf -resume
+2025-12-06 06:43:27	1.9s	clever_wiles	OK	8e0fb8fcab869fdc876b37838f8e2509	d7b56c3f-6b1a-48ad-a390-c63b2c6693f3	nextflow 3.hello-Bengauru-Upper.nf -resume
+2025-12-06 07:02:36	1.6s	loving_bartik	OK	fc541201352a37bcc39a471c1f435100	d7b56c3f-6b1a-48ad-a390-c63b2c6693f3	nextflow 3.hello-Bengauru-Upper.nf -resume
+2025-12-06 07:07:59	-	chaotic_ritchie	-	1f236fc4378cff50e1abf6cd9a9a9e34	d7b56c3f-6b1a-48ad-a390-c63b2c6693f3	nextflow 3.hello-Bengauru-Upper.nf -resume
+2025-12-06 07:22:54	2.1s	evil_bose	OK	9d8581383cfc1bc16e3af26e5aa1bdf0	53d026d7-131a-48ee-8141-a76c8dfc5ba2	nextflow 4.hello-Bengauru-Upper-Module-Calling.nf
+2025-12-06 07:35:37	2.4s	infallible_lichterman	OK	00ce13f2dcf91abd61382630bb8ba76b	a5299e9b-879a-4847-88db-4710f07d9a13	nextflow 5.File-Operations.nf

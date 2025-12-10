@@ -1,0 +1,7 @@
+HELLO_GCU FROM SAGELOOM
+File Path
+chr7_R2.fastq.gz
+CKSUM
+2740032538 11182309 chr7_R2.fastq.gz
+Line count
+44463 chr7_R2.fastq.gz

@@ -1,0 +1,25 @@
+cmd1="bwa mem -M -R \"@RG\tID:chr13\tSM:chr13\tPL:ILLUMINA\" -t 4 ./data/Input/References/hg19.p13.plusMT.no_alt_analysis_set.fa ./data/input/fastqs/chr13_R1.fastq.gz ./data/input/fastqs/chr13_R2.fastq.gz \
+  | samtools view -b -@ 4 - \
+  | samtools sort -@ 4 -o ./data/outputs/chr13.bam && samtools index ./data/outputs/chr13.bam"
+
+docker run --rm -v "$(pwd)":"$(pwd)" -w "$(pwd)"  sageloom/gatk_minimal -c "$cmd1"
+
+cmd3="picard CreateSequenceDictionary REFERENCE="./data/References/hg19.p13.plusMT.no_alt_analysis_set.fa" OUTPUT="./data/References/hg19.p13.plusMT.no_alt_analysis_set.dict""
+
+cmd4="gatk --java-options '-Xmx16G' Mutect2 \
+  -R  ./data/References/hg19.p13.plusMT.no_alt_analysis_set.fa \
+  -I ./data/outputs/chr13_dedup.bam \
+  -tumor chr13 \
+  -L ./data/input/Resources/Baits.bed \
+  -O ./data/outputs/chr13.unfiltered.vcf.gz"
+
+cmd5="gatk --java-options '-Xmx16G' FilterMutectCalls \
+  -R ./data/References/hg19.p13.plusMT.no_alt_analysis_set.fa \
+  -V ./data/outputs/chr13.unfiltered.vcf.gz \
+  -O ./data/outputs/chr13.filtered.vcf.gz"
+
+
+cmd6="fastqc --java-options '-Xmx16G' FilterMutectCalls \
+  -R ./data/References/hg19.p13.plusMT.no_alt_analysis_set.fa \
+  -V ./data/outputs/chr13.unfiltered.vcf.gz \
+  -O ./data/outputs/chr13.filtered.vcf.gz"
